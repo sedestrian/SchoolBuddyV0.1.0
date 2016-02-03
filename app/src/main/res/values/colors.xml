@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColorOld">#009688</color>
+    <color name="primaryColorPre">#00ACC1</color>
+    <color name="primaryColor">#3F51B5</color>
+    <color name="primaryColorRed">#ef5350</color>
+    <color name="primaryColorDarkPre">#00838F</color>
+    <color name="primaryColorDark">#303F9F</color>
+    <color name="primaryColorLight">#70FFFFFF</color>
+    <color name="accentColorOld">#FFC107</color>
+    <color name="FABColor">#FFCA28</color>
+    <color name="colorAccentPre">#0097A7</color>
+    <color name="colorAccent">#FF5252</color>
+    <color name="colorAccentDark">#d24242</color>
+    <color name="greyedText">#70FFFFFF</color>
+    <color name="calendarSelector">#1976D2</color>
+    <color name="miniButtonMainOrange">#FF8A65</color>
+    <color name="miniButtonMainPre">#8BC34A</color>
+    <color name="miniButtonMain">#FF5252</color>
+    <color name="menuLabelColor">#d6d6d6</color>
+    <color name="transparent">#00000000</color>
+    <!-- card colors -->
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow_1">#d4d4d4</color>
+    <color name="card_shadow_2">#dddddd</color>
+    <color name="card_detailing">#eee</color>
+</resources>

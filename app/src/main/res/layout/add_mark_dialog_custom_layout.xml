@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:layout_margin="16dp"
+    android:clickable="false">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Mark"
+        android:id="@+id/textView2"
+        android:paddingTop="8dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <!--<biz.kasual.materialnumberpicker.MaterialNumberPicker
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        app:npMinValue="0"
+        app:npSeparatorColor="@color/colorAccent"
+        app:npMaxValue="10"
+        app:npTextSize="20sp"></biz.kasual.materialnumberpicker.MaterialNumberPicker>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Subject"
+        android:id="@+id/textView3"
+        android:paddingTop="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Mathematics"
+        android:id="@+id/textView4"
+        android:paddingTop="8dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Date"
+        android:id="@+id/textView5"
+        android:paddingTop="8dp"
+        android:layout_below="@+id/slider"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_marginTop="29dp" />
+
+    <Spinner
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_marginTop="8dp"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/textView2"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_below="@+id/textView5"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_alignParentLeft="true"
+        android:textAllCaps="false"
+        android:layout_alignParentStart="true"
+        android:background="#00ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Weight"
+        android:id="@+id/textView6"
+        android:layout_marginLeft="100dp"
+        android:layout_above="@+id/editText2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Type"
+        android:id="@+id/textView7"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/textView4"
+        android:layout_marginRight="60dp" />
+
+    <com.rey.material.widget.Slider
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        app:sl_minValue="0"
+        app:sl_maxValue="100"
+        app:sl_value="100"
+        app:sl_stepValue="10"
+        app:sl_travelAnimDuration="100"
+        app:sl_discreteMode="true"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="1dp"
+        android:id="@+id/slider"
+        android:layout_toEndOf="@id/editText2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="100%"
+        android:id="@+id/textView8"
+        android:layout_above="@+id/editText2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="35dp"
+        android:layout_marginEnd="35dp" />
+
+
+</RelativeLayout>

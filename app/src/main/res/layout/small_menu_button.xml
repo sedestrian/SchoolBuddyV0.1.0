@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.technext.fabtest2.FAB"
+    android:id="@+id/fab_frag">
+    <!--<ImageView
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:src="@drawable/shadow"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:id="@+id/fab_shadow"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="14dp"/>
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/miniCommand"
+        android:theme="@style/ShadowTest"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="6dp"
+        android:tint="@android:color/white"
+        android:background="@drawable/ovalmini"
+        tools:ignore="RtlCompat"/>-->
+    <android.support.design.widget.FloatingActionButton
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/miniCommand"
+        app:fabSize="mini"/><!--
+        app:backgroundTint="@color/mini_fab"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:elevation="2dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_add_white_24px"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"-->
+
+</RelativeLayout>

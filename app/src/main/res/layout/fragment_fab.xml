@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.technext.fabtest2.FAB"
+    android:id="@+id/fab_frag">
+    <ImageView
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:src="@drawable/shadow"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="10dp"
+        android:id="@+id/fab_shadow"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="16dp"/>
+    <ImageButton
+        android:layout_width="@dimen/round_button_diameter"
+        android:layout_height="@dimen/round_button_diameter"
+        android:id="@+id/runCommand"
+        android:theme="@style/ShadowTest"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="16dp"
+        android:tint="@android:color/white"
+        android:src="@android:drawable/ic_input_add"
+        android:background="@drawable/oval"
+        tools:ignore="RtlCompat"/>
+
+
+</RelativeLayout>

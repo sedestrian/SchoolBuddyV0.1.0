@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="calView" type="id">10</item>
+    <item name="belowView" type="id">20</item>
+    <item name="gridCal" type="id">11</item>
+    <item name="header" type="id">12</item>
+    <item name="mainBtHolder" type="id">mainBtHolder</item>
+    <item name="test1" type="id">test1</item>
+</resources>

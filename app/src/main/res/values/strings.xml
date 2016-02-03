@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">School Buddy</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">next</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="action_bar_today">Today</string>
+    <string name="title_activity_voti">Voti</string>
+    <string name="fab_menu_item_1">Mark</string>
+    <string name="fab_menu_item_2">Test</string>
+    <string name="fab_menu_item_3">Oral Test</string>
+    <string name="fab_menu_item_4">Justification</string>
+
+</resources>
